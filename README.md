@@ -2,7 +2,7 @@
 # 💫 About Me:
 # Proyecto  - Java Script
 
-¡Hola! Soy Mariano Francischini. Esta es la 2da entrega del Proyecto  para el curso de Java Script en CoderHouse.
+¡Hola! Soy Mariano Francischini. Esta es la 3ra entrega del Proyecto  para el curso de Java Script en CoderHouse.
 
 ## Descripción del Proyecto
 
@@ -20,15 +20,10 @@ Dentro del proyecto, se trabajó con las siguientes tecnologías y conceptos:
 
 ## Temas del Proyecto
 
-    ✅ Variables / Constantes
-    ✅ Interacción con el usuario (PROMPT, ALERT, CONSOLE)
-    ✅ Ciclo de iteración While
-    ✅ Condicional If
-    ✅ Funciones JS
-    ✅ Objetos
-    ✅ Arrays
-    ✅ Metodos de Arrays
+    ✅ DOM
+    ✅ Eventos
+    ✅ JSON y storage
 
 ## Descripción del Proyecto
 
-El proyecto consiste en el desarrollo de un E-commerce , donde se muestra un Menu con varias opciones que simulan un carrito.
+El proyecto consiste en el desarrollo de un E-commerce , donde ya esta la funcionalidad implementada para generar un carrito.
