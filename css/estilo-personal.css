@@ -30,3 +30,6 @@ header.section-header .barra-top {
     margin: 0;
     padding: 0;
   }
+  .oculto {
+    display:none
+}

@@ -1,12 +1,16 @@
+let shopping = recuperarCarrito()
+function recuperarCarrito() {
+    return JSON.parse(localStorage.getItem("miCarrito")) ?? [];
+}
+
 class Compra { 
     constructor(carritoDeCompras) {
         this.carrito = carritoDeCompras
     }
 
-    obtenerSubtotal() {
-        if (this.carrito.length > 0) { 
-            return this.carrito.reduce((subtotal, carrito)=> subtotal + carrito.precio, 0)
-          
-        }
-    }
 }
+const compra = new Compra(shopping);
+const volver = document.querySelector("#volver");
+volver.addEventListener("click", () => {    
+    localStorage.removeItem("miCarrito")  
+});
